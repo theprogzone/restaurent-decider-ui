@@ -1,0 +1,31 @@
+<div>
+  <div class="submit-form">
+
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input
+        type="text"
+        class="form-control"
+        id="username"
+        required
+        [(ngModel)]="login.username"
+        name="username"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        required
+        [(ngModel)]="login.userPwd"
+        name="password"
+      />
+    </div>
+
+    <button (click)="loginToSystem()" class="btn btn-success">Login</button>
+
+  </div>
+</div>

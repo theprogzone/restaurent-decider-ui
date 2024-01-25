@@ -1,14 +1,26 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
+import { Component, OnInit } from '@angular/core';
+import { AuthService } from './services/auth.service';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  title = 'restaurent-decider-ui';
+export class AppComponent implements OnInit {
+
+  title = 'Angular 17 Crud example';
+  isAuthenticated = false;
+
+  constructor(private authService: AuthService) { }
+
+  ngOnInit(): void {
+    // Your method call goes here
+    
+    if (this.authService.getAuthToken() != null) {
+      console.log('here');
+      this.isAuthenticated = true;
+    } else {
+      this.isAuthenticated = false;
+    }
+  }
 }
