@@ -66,4 +66,4 @@ Password : '''admin1234'''
 
 * Once all the team members have submit their preference, sesion initiator can terminate the session by clicking the Terminate Session button. Then application selects a restaurant randomly and display it in everyones pages:
 
-![Alt text](image.png)
+![Alt text](terminate-session.png)
