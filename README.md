@@ -13,7 +13,7 @@ This application is a simple UI application for decide a restaurant for office t
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
-* Clone the respository
+* Clone the respository (from branch: '''main''')
 * Go inside to the project root folder and install the '''npm''' packages described in the '''package.json''' using this command: '''npm install'''
 * Run this command to up the dev server: '''ng serve --port 4200'''
 
