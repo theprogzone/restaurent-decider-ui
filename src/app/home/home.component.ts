@@ -44,7 +44,7 @@ export class HomeComponent {
       type: 'start'
     };
 
-    this.restService.postMethod(data, 'session').subscribe({
+    this.restService.putMethod(data, 'session').subscribe({
       next: (res) => {
         this.link = 'http://localhost:4200/choices?sessionId=' + res.sessionId;
         this.sessionId = res.sessionId;
@@ -59,7 +59,7 @@ export class HomeComponent {
       sessionId: this.sessionId
     };
 
-    this.restService.postMethod(data, 'session').subscribe({
+    this.restService.putMethod(data, 'session').subscribe({
       next: (res) => {
         this.isTerminated = true;
       },
