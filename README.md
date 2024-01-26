@@ -8,18 +8,18 @@ This application is a simple UI application for decide a restaurant for office t
 
 ## How to Run
 
-* '''Node js''' and '''npm''' should be installed before run the application.
+* ```Node js``` and ```npm``` should be installed before run the application.
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
-* Clone the respository (from branch: '''main''')
-* Go inside to the project root folder and install the '''npm''' packages described in the '''package.json''' using this command: '''npm install'''
-* Run this command to up the dev server: '''ng serve --port 4200'''
+* Clone the respository (from branch: ```main```)
+* Go inside to the project root folder and install the ```npm``` packages described in the ```package.json``` using this command: ```npm install```
+* Run this command to up the dev server: ```ng serve --port 4200```
 
 Once the application runs successfully you should see something like this
 
-'''
+```
 Initial Chunk Files | Names         |  Raw Size
 scripts.js          | scripts       | 206.82 kB | 
 styles.css          | styles        | 194.12 kB | 
@@ -31,7 +31,7 @@ main.js             | main          |  31.79 kB |
 Application bundle generation complete. [1.522 seconds]
 Watch mode enabled. Watching for file changes...
   ➜  Local:   http://localhost:4200/
-'''
+```
 
 * After running the this application, we need to run the back end server as well. Instruction to run the back end server, you can find from this url: https://github.com/theprogzone/restaurant-decider
 
@@ -44,8 +44,8 @@ Watch mode enabled. Watching for file changes...
 
 * Provide credentials as below and click the login button:
 
-Username : '''admin'''
-Password : '''admin1234'''
+Username : ```admin```
+Password : ```admin1234```
 
 * Then you will be redirected to the below page:
 
